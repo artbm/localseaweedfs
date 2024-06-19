@@ -34,17 +34,17 @@ You can run the script with various options to customize the installation. Below
 
 1. Proceed with the default configuration:
     ```sh
-    sh setup2.sh -d
+    sh setup.sh -d
     ```
 
 2. Install SeaweedFS to a custom directory and specify an S3 directory:
     ```sh
-    sh setup2.sh -i /custom/path/seaweedfs -s /custom/path/s3_bucket
+    sh setup.sh -i /custom/path/seaweedfs -s /custom/path/s3_bucket
     ```
 
 3. Cleanup the installation directory:
     ```sh
-    sh setup2.sh -c
+    sh setup.sh -c
     ```
 
 ### Generated Files
